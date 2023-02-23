@@ -35,14 +35,12 @@
     <div class="wrapper">
       <div class="container">
         <header>
-          <figure>
-            <img src="images/image-product-mobile.jpg" alt="" class="mobile" />
-            <img
-              src="images/image-product-desktop.jpg"
-              alt=""
-              class="desktop"
-            />
-          </figure>
+          
+            <picture>
+              <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
+              <img src="images/image-product-mobile.jpg" alt="">
+            </picture>
+         
         </header>
         <main>
           <div class="product-info">
